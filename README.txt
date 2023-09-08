@@ -1,5 +1,5 @@
 Collaborative Project -> Authors: Anthony Paulino & Tanay Kale
-
+Please follow both Rutgers University's Principles of Academic Integrity and the Rutgers Department of Computer Science's Academic Integrity Policy.
 Testing
 ---------
 if DEBUG macro set to 1 is for testing purposes, make sure DEBUG is set to 0 for all source codes
