@@ -1,9 +1,13 @@
-Collaborative Project -> Authors: Anthony Paulino & Tanay Kale
+School Collaborative Project -> Authors: Anthony Paulino & Tanay Kale
 Please follow both Rutgers University's Principles of Academic Integrity and the Rutgers Department of Computer Science's Academic Integrity Policy.
-Testing
+
+Summary: is a basic implementation of a Shell written in C. It provides an interactive and batch mode both of which can read and 
+interpret sequence of commands. The program utilizes strictly POSIX functions allowing programmers to have more control/flexibility over the reading/parsing/interpreting commands regardless of whitespaces, newlines, etc. This program implementation safely runs child processes and manages file descriptors to safely access, read, and write intended files. It is not limited to simple commands but interprets redirections, piping, and wildcards (multiple asterisks in a path). Does not support multiple pipes. 
+
+Testing Plan
 ---------
 if DEBUG macro set to 1 is for testing purposes, make sure DEBUG is set to 0 for all source codes
-We have .txt files in a "tests" folder that we will refer to as the testcases
+We have .txt files in a "tests" folder that we will refer to as the test cases
 
 Testing reading/parsing of shell:
 ---------------------------------
